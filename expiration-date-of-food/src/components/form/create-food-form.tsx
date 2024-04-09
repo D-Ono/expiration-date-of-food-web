@@ -6,10 +6,10 @@ import { CreateFoodInfer, CreateFoodSchema } from "@/schemas/schema"
 import { zodResolver } from "@hookform/resolvers/zod"
 
 export const CreateFood = () => {
-    const form = useForm<CreateFoodInfer>({
+/*     const form = useForm<CreateFoodInfer>({
         resolver: zodResolver(CreateFoodSchema)
     })
-
+ */
     return (
         <Dialog>
         <DialogTrigger asChild>
