@@ -1,3 +1,1 @@
-import FoodList from "@/lib/pages/food-list";
-
-<FoodList />
+export { default } from '@/lib/pages/food-list'
